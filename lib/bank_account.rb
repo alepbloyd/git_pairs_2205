@@ -10,8 +10,7 @@ class BankAccount
   end
 
   def deposit(amount)
-    25 + @balanceasfadsf
-
+    @balance += amount
   end
 
   def withdraw(amount)
